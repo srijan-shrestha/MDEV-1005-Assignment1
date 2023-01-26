@@ -1,0 +1,176 @@
+body {
+  display: block;
+  overflow-x: hidden;
+}
+nav {
+  background-color: white;
+}
+.navbar-brand img {
+  max-height: 50px;
+}
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4;
+}
+nav ul li a {
+  color: #a9a9a9;
+  font-size: 22px;
+  margin: auto 10px;
+}
+nav ul li a:hover {
+  color: #683aa4;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  background-color: #683aa4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+
+nav .active {
+  color: #683aa4 !important;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4;
+  font-size: 4.5rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 995px) {
+  section h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
+#hero .col {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+#hero .img-col {
+  justify-content: flex-end;
+  padding: 1rem;
+}
+#hero img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #hero img {
+    height: 250px;
+    width: 65%;
+  }
+}
+
+p{
+  font-size: 16px;
+  color: gray;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+
+
+.card {
+  box-shadow: 11px 7px 16px #f9f9f9;
+  text-align: center;
+}
+
+.card:hover {
+  border: 1px solid #683aa4;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  color: #683aa4;
+}
+
+.card-text {
+  color: gray;
+  font-size: 14px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #683aa4;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: white;
+}
+
+.btn-primary {
+  max-width: 50%;
+  background-color: #683aa4;
+  color: white;
+  border-radius: 50px !important;
+  border: none;
+}
+
+
+h4 {
+  color: #683aa4;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.badge-success {
+  background-color: #683aa4;
+}
+
+.profile-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.about {
+  justify-content: center;
+  align-items: center;
+}
+.about-img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about-blob {
+  width: 220px;
+  fill: #683aa4;
+}
+
+.about-blob-img {
+  width: 215px;
+}
